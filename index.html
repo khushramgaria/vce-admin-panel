@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Student - VCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="assets/css/student-data.css">
+    <script src="assets/js/color-modes.js"></script>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="logo">
+                <a class="navbar-brand" href="admin-login.html">LOGIN</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-l">
+                    <li class="nav-item">
+                        <a class="nav-link nav-unq" href="reports.html">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses-domain.html">Manage Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notification.html">Notification</a>
+                    </li>
+                </ul>
+                <div class="profile-i">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- dashboard -->
+    <div class="container-fluid dashboard">
+        <div class="row">
+            <div class="col-md-4 left-col">
+                <div class="profile-image">
+                    <img src="img/profile.jpg" alt="" width="40%">
+                    <h5>Admin Name</h5>
+                </div>
+
+                <div class="manage">
+                    <b class="manage1">Manage</b>
+                    <div class="manange-divider"></div>
+                    <div class="button-container">
+                        <a href="edit-profile.html"><button class="students">Edit Profile</button></a>
+                    </div>
+                    <div class="button-container">
+                        <a href="index.html"><button class="industrialist">Add Student</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 right-col">
+                <div class="student-head">Student Details</div>
+                <form action="" class="student-form">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-6 col-12">
+                                <label for="">First Name</label>
+                                <br>
+                                <input type="text">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Last Name</label>
+                                <br>
+                                <input type="text">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Email</label>
+                                <br>
+                                <input type="text">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Phone Number</label>
+                                <br>
+                                <input type="text">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Password</label>
+                                <br>
+                                <input type="text">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Confirm Password</label>
+                                <br>
+                                <input type="text">
+                            </div>
+                            <div class="col-md-6 col-12 btn btn1">
+                                <a href="">Reset</a>
+                            </div>
+                            <div class="col-md-6 col-12 btn btn2">
+                                <a href="">Add</a>
+                            </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
